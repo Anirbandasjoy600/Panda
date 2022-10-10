@@ -1,0 +1,72 @@
+.container{
+    margin-bottom: 100px;
+}
+.buy-now-button {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.orange{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: rgb(233, 84, 84);
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.cat1{
+    background-color: rgb(32, 17, 238);
+}
+.cat2{
+    background-color: rgb(228, 74, 74);
+}
+.cat3{
+    background-color: rgb(31, 234, 248);
+}
+.catagory h1{
+    color: white;
+}
+.catagory img{
+    width: 100px;
+}
+.shadow{
+    border-radius: none;
+}
+.contac-us{
+    background-color: #fceae8;
+    height: 300px;
+    width: auto;
+    padding: 60px 300px;
+}
+footer{
+    text-align: center;
+}
+.menu{
+    background: fixed;
+}
+.card{
+    box-shadow: 3px 2px 6px gainsboro;
+    border: none;
+}
+@media (max-width: 768px){
+    h2{
+        color: #FF136F;
+        font-size: small;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        color: #1b1a1b;
+        width: 768px;
+        height: auto;
+    }
+}
